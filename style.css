@@ -28,14 +28,14 @@ header {
   background: #17B491;
 }
 
-.start-body h1 {
+.start-section h1 {
   font-weight: bolder;
 }
+/* PORTFOLIO  */
 
-
-
-
-
+.portfolio-section .star-cnt {
+  position:relative;
+}
 
 /* FOOTER */
 
