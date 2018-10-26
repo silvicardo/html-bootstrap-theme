@@ -1,3 +1,80 @@
 * {
-  background-color: red;
+  font-family: Montserrat;
 }
+
+/* HEADER */
+
+header {
+  background:black;
+
+}
+nav {
+  background: blue;
+  height: 110px;
+  line-height: 110px;
+}
+
+.left-nav {
+  height: 110px;
+  font-size: 25px;
+  background: red;
+}
+
+.right-nav {
+  height: 110px;
+  font-size: 20px;
+  text-align: right;
+  background: yellow;
+}
+
+.right-nav ul li{
+  margin-right: 50px;
+  list-style: none;
+  display: inline;
+}
+
+/*  CONTENT CONTAINER */
+
+/* START BOOTSTRAP SECTION */
+
+.start-body {
+  text-align: center;
+  background: pink;
+}
+
+
+.start-body h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  text-transform : uppercase;
+  background: pink;
+}
+
+.start-body h2 {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.start-body .star-cnt i.fa-star {
+  color: white;
+  font-size: 30px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+/* FOOTER */
+
+/* footer {
+  padding: 20px 0;
+  background: black;
+  color: white;
+  text-align: center
+} */
