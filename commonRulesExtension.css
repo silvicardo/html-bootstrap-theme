@@ -57,8 +57,7 @@
 
 /* POSITION */
 
-.positionAbsolute_top50_left_50_transformed {
-
+.positionAbsolute_top50_left50_transformed {
   position:absolute;
   top: 50%;
   left: 50%;
