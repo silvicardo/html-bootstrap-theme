@@ -55,13 +55,21 @@
   margin-bottom: 50px;
 }
 
-/* POSITION */
+/* POSITION  AND DISPLAY*/
 
 .positionAbsolute_top50_left50_transformed {
   position:absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.display_Block {
+  display: block;
+}
+
+.max_width_100 {
+  max-width: 100%;
 }
 
 /* BACKGROUNDS */
@@ -80,6 +88,9 @@
 }
 
 /* TEXT */
+.black_text {
+  color: black;
+}
 
 .white_text {
   color: white;
