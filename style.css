@@ -2,6 +2,9 @@
   font-family: Montserrat;
 }
 
+.latoFontFamily {
+  font-family: Lato;
+}
 section {
   padding: 50px 0;
 }
@@ -19,7 +22,7 @@ header {
 }
 
 .nav_item {
-  margin-right: 50px;
+
   list-style: none;
   display: inline-block;
 }
@@ -28,6 +31,8 @@ header {
   color: #17B491;
   text-decoration: none;
 }
+
+
 /* START BOOTSTRAP SECTION */
 
 .start-section, .about-section {
@@ -55,13 +60,36 @@ header {
 
 /* CONTACTFORM SECTION */
 
+.form-group.bottomBorder {
+  border-bottom: 1px solid rgb(233,236,239);
+}
+.form-control {
+  border: 0;
+  box-shadow: none;
+  font-family: Lato;
+  font-size: 30px;
+}
+
+.form-group textarea {
+  resize: none;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
 .btn_send {
   border: 2px solid white;
   border-radius: 8px;
   background: #17B491;
   color: white;
   padding: 15px 35px;
-  font-size: 25px;
+  font-size: 20px;
+  font-family: Lato;
 }
 
 .btn_send:hover {
@@ -108,4 +136,75 @@ header {
 
 footer {
   background: #192129;
+}
+
+/* MEDIA QUERY */
+
+@media all and (min-width:1000px) {
+  .left-nav {
+    font-size: 31px;
+  }
+
+  .right-nav {
+    font-size: 12px;
+    padding-right: 50px;
+  }
+
+  .nav_item {
+    margin-right: 10px;
+  }
+
+}
+
+@media all and (min-width: 660px) and (max-width: 999px) {
+  .left-nav {
+    font-size: 17px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  .right-nav {
+    font-size: 14px;
+    padding-right: 30px;
+  }
+
+  .nav_item {
+    margin-right: 10px;
+  }
+
+}
+
+@media all and (min-width:500px) and (max-width: 659px) {
+
+  .left-nav {
+    font-size: 13px;
+  }
+
+  .right-nav {
+    font-size: 14px;
+    padding-right: 30px;
+  }
+
+  .nav_item {
+    margin-right: 10px;
+  }
+}
+
+@media all and (max-width: 499px) {
+  .left-nav {
+    font-size: 7px;
+  }
+
+  .right-nav {
+  font-size: 6px;
+  }
+
+  .nav_item {
+    margin-right: 10px;
+  }
+
+  .start-section h1 {
+    font-size: 30px;
+    font-weight: bolder;
+  }
 }
