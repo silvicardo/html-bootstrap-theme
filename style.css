@@ -2,6 +2,10 @@
   font-family: Montserrat;
 }
 
+section {
+  padding: 50px 0;
+}
+
 /* HEADER */
 
 header {
@@ -14,34 +18,94 @@ header {
   line-height: 110px;
 }
 
-.right-nav ul li{
+.nav_item {
   margin-right: 50px;
   list-style: none;
   display: inline-block;
 }
 
-/*  CONTENT CONTAINER */
-
+.nav_link:hover {
+  color: #17B491;
+  text-decoration: none;
+}
 /* START BOOTSTRAP SECTION */
 
-.start-section {
+.start-section, .about-section {
   background: #17B491;
 }
 
 .start-section h1 {
   font-weight: bolder;
 }
-/* PORTFOLIO  */
 
-.portfolio-section .star-cnt {
-  position:relative;
+/* ABOUT */
+
+.btn_download {
+  border: 2px solid white;
+  background: #17B491;
+  color: white;
+  padding: 15px 35px;
+  font-size: 25px;
+}
+
+.btn_download:hover {
+  background: white;
+  color:black;
+}
+
+/* CONTACTFORM SECTION */
+
+.btn_send {
+  border: 2px solid white;
+  border-radius: 8px;
+  background: #17B491;
+  color: white;
+  padding: 15px 35px;
+  font-size: 25px;
+}
+
+.btn_send:hover {
+  background: #128f76;
+  color: white;
+}
+
+/* CONTACTS AND SOCIALS */
+
+.contactsAndSocials-section {
+  background: #273646;
+}
+
+.contactsAndSocials-section span.startBootstrap {
+  color: #17B491;
+}
+
+.contactsAndSocials-section .socials {
+  margin: 0 auto;
+}
+
+.social-item {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  color: white;
+}
+
+.social-item:hover {
+  background: white;
+  color: #273646;
+}
+
+.social-item  .fab {
+  font-size: 25px;
 }
 
 /* FOOTER */
 
-/* footer {
-  padding: 20px 0;
-  background: black;
-  color: white;
-  text-align: center
-} */
+footer {
+  background: #192129;
+}
