@@ -5,41 +5,33 @@
 /* HEADER */
 
 header {
-  background:black;
-
+  background: #273646;
+  color: white;
+  font-weight: bolder;
+  text-transform : uppercase;
 }
-nav {
-  background: blue;
+
+.left-nav, .right-nav {
   height: 110px;
   line-height: 110px;
-}
-
-.left-nav {
-  height: 110px;
-  font-size: 25px;
-  background: red;
-}
-
-.right-nav {
-  height: 110px;
-  font-size: 20px;
-  text-align: right;
-  background: yellow;
 }
 
 .right-nav ul li{
   margin-right: 50px;
   list-style: none;
-  display: inline;
+  display: inline-block;
 }
 
 /*  CONTENT CONTAINER */
 
 /* START BOOTSTRAP SECTION */
 
+.start-section {
+  background: #17B491;
+}
+
 .start-body {
   text-align: center;
-  background: pink;
 }
 
 
@@ -48,7 +40,6 @@ nav {
   font-weight: bolder;
   font-size: 50px;
   text-transform : uppercase;
-  background: pink;
 }
 
 .start-body h2 {
@@ -57,12 +48,7 @@ nav {
 }
 
 .start-body .star-cnt i.fa-star {
-  color: white;
   font-size: 30px;
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 

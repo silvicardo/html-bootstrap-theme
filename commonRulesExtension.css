@@ -55,16 +55,55 @@
   margin-bottom: 50px;
 }
 
+/* POSITION */
+
+.positionAbsolute_top50_left_50_transformed {
+
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* BACKGROUNDS */
 
 .bg_red {
   background: red;
 }
-
 .bg_black {
   background: black;
 }
-
 .bg_grey {
   background: grey;
+}
+.bg_yellow {
+  background: yellow;
+}
+
+/* TEXT */
+
+.white_text {
+  color: white;
+}
+
+.fontSize_10 {
+  font-size: 10px;
+}
+.fontSize_15 {
+  font-size: 15px;
+}
+.fontSize_20 {
+  font-size: 20px;
+}
+.fontSize_25 {
+  font-size: 25px;
+}
+.fontSize_30 {
+  font-size: 30px;
+}
+.fontSize_40 {
+  font-size: 40px;
+}
+.fontSize_50 {
+  font-size: 50px;
 }
