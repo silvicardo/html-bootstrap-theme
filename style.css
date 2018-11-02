@@ -14,6 +14,11 @@ section {
 header {
   background: #273646;
   font-weight: bolder;
+  position: fixed;
+  width:100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .left-nav, .right-nav {
@@ -22,7 +27,6 @@ header {
 }
 
 .nav_item {
-
   list-style: none;
   display: inline-block;
 }
@@ -32,8 +36,18 @@ header {
   text-decoration: none;
 }
 
+.nav_link.active {
+  padding: 15px 20px;
+  color: white;
+  border-radius: 5px;
+  background: #18bc9c;
+}
 
 /* START BOOTSTRAP SECTION */
+
+.start-section {
+  margin-top: 110px;
+}
 
 .start-section, .about-section {
   background: #17B491;
